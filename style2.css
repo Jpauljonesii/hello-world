@@ -3,9 +3,14 @@ body {
 }
 
 h1 {
-    color:blue
-    background-color:blue;
-    text-align; center:
+    color:blue;
+    text-align: center;
+    
+    text-all
+}
+
+h2 {
+    text-align: center;
 }
 
 ul{
@@ -26,6 +31,16 @@ li{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    text-align: center;
 }
 
 p 
