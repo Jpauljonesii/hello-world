@@ -34,10 +34,11 @@ li{
     width: 50%;
 }
 
-img {
+.img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    size: 100px;
 }
 
 main {
