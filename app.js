@@ -40,4 +40,16 @@ let favorite = prompt("What is your favorite thing to do")
  }else {return "Bad Choice" }
   
 }
-    
+
+function getSiblings()
+{
+    let siblings = prompt("how many siblings do you have?");
+    console.log(siblings)
+    let output = '';
+for (let i = 0; i < siblings; i++){
+    output += "<img src= '/hello-world/images/noa.jpg' width='100' height='100'/> "
+
+}
+document.write(output)
+}
+   
