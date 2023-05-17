@@ -5,8 +5,9 @@ function yourName(){
 document.write (username)
 }
 
-
-let time = ("What hour is it? (0-23)");
+function getTime(){
+let time = prompt("What hour is it? 0-23");
+console.log("time of day")
 
 let message = "Hello";
 let x = 5;
@@ -21,18 +22,20 @@ if (time <= 11) {
 } else {
     message = "That hour does not exist"
 }
+document.write (message)
+}
 
-function getFavCookie()
+function getFavthing()
 {
     
 
-let cookie = prompt("What is your favorite cookie")
- console.log(cookie)
- if (cookie==='chocolate'){
+let favorite = prompt("What is your favorite thing to do")
+ console.log(favorite)
+ if (favorite==='travel'){
     return'Great Choice'
  }else {alert ("that is a poor choice, please try again")}
-  cookie = prompt("What is your favorite cookie")
-  if (cookie==='chocolate'){
+  favorite = prompt("What is your favorite thing to do")
+  if (favorite==='travel'){
     return'Great Choice'
  }else {return "Bad Choice" }
   
